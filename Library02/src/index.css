@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap);
+  }
+}
+
+[data-p-active="true"] {
+  background-color: #009951 !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+[data-p-active="false"] {
+  background-color: none!important;
+  border-radius: 20% !important;
+  color: #059669 !important;
+}
+
+[data-p-resizable-column="false"]{ border-bottom: 2px solid #374151 !important; } 
+[data-p-selection-column="false"]{ border-bottom: 1px solid #374151 !important; } 
+
+
+
+
+
+

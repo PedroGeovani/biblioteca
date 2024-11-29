@@ -1,0 +1,58 @@
+import AutoComplete from "primevue/autocomplete";
+import Button from "primevue/button";
+import Card from "primevue/card";
+import Column from "primevue/column";
+import ConfirmDialog from "primevue/confirmdialog";
+import ContextMenu from "primevue/contextmenu";
+import DataTable from "primevue/datatable";
+import DataView from "primevue/dataview";
+import DatePicker from "primevue/datepicker";
+import Dialog from "primevue/dialog";
+import Drawer from "primevue/drawer";
+import IconField from "primevue/iconfield";
+import InputGroup from "primevue/inputgroup";
+import InputIcon from "primevue/inputicon";
+import InputMask from "primevue/inputmask";
+import InputNumber from "primevue/inputnumber";
+import InputText from "primevue/inputtext";
+import Menu from "primevue/menu";
+import Paginator from "primevue/paginator";
+import Password from "primevue/password";
+import ProgressSpinner from "primevue/progressspinner";
+import Select from "primevue/select";
+import Skeleton from "primevue/skeleton";
+import SplitButton from "primevue/splitbutton";
+import Toast from "primevue/toast";
+import Toolbar from "primevue/toolbar";
+
+import { App } from "vue";
+
+export function setPrimeVueComponents(app: App) {
+  app.component("AutoComplete", AutoComplete);
+  app.component("Button", Button);
+  app.component("Card", Card);
+  app.component("Column", Column);
+  app.component("ConfirmDialog", ConfirmDialog);
+  app.component("ContextMenu", ContextMenu);
+  app.component("DataTable", DataTable);
+  app.component("DataView", DataView);
+  app.component("DatePicker", DatePicker);
+  app.component("Dialog", Dialog);
+  app.component("Drawer", Drawer);
+  app.component("IconField", IconField);
+  app.component("InputIcon", InputIcon);
+  app.component("InputMask", InputMask);
+  app.component("InputGroup", InputGroup);
+  app.component("InputNumber", InputNumber);
+  app.component("InputMask", InputMask);
+  app.component("InputText", InputText);
+  app.component("Menu", Menu);
+  app.component("Paginator", Paginator);
+  app.component("Password", Password);
+  app.component("ProgressSpinner", ProgressSpinner);
+  app.component("Select", Select);
+  app.component("Skeleton", Skeleton);
+  app.component("SplitButton", SplitButton);
+  app.component("Toast", Toast);
+  app.component("Toolbar", Toolbar);
+}
